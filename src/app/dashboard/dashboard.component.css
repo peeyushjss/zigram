@@ -1,0 +1,28 @@
+table {
+    width: 100%;
+}
+
+th.mat-sort-header-sorted {
+    color: black;
+}
+
+.mat-form-field {
+    font-size: 14px;
+    width: 100%;
+  }
+  
+  .mat-table {
+    overflow: auto;
+    max-height: 500px;
+  }
+  .dashboard-container {
+    display: flex;
+    flex-direction: column;
+    min-width: 300px;
+  }
+
+  .sorting{
+    width: 15em;
+    height: 35px;
+    margin: 5px;
+  }
