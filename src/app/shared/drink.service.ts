@@ -8,7 +8,9 @@ export class DrinkService {
 
     readonly rootUrl = "https://www.thecocktaildb.com/api/json/v1/1/";
 
-    constructor(private http: HttpClient) { }
+    constructor(
+        private http: HttpClient
+    ) { }
 
     /**
      * @description method to fetch the details of drinks.
